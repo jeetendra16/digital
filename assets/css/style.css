@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+.header_1xh{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/baground\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center center;
+    
+}
+.logo_xh{
+    color: #ffffff;
+          line-height: 1.1;
+          display: block;
+          font-weight: 500;
+          letter-spacing: 1px;
+          font-size: 38px;
+}
+ 
+  .bennar_1xh h1{
+    font-size: 5rem;
+    margin-top: 250px;
+  }
+/* ======================= */
+.bannar_2xh{
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  margin-top: 370px;
+}
+.bannar_2xh h2{
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 36px;
+  font-weight: 600;
+}
+.bannar_2xh hr{ 
+  width: 500px;
+  margin: revert;
+  margin-top: 1rem;
+}
+
+
+.banner_3xh{
+  margin-top: 2rem;
+  background-image: url(../img/bagraund\ img2.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 600px;
+  width: 100%;
+}
+
+.containtxh{
+  display: flex;
+  padding-top: 7.5rem;
+  padding-left: 2rem;
+}
+.left_saidexh{
+  display: flex;
+  flex-direction: column;
+}
+.left_saidexh h4{
+  color: #fff;
+  background-color: #000;
+  border: 3px solid #fff;
+  text-align: center;
+  margin: 1rem 10px;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  
+}
+
+
+.right_saidexh{
+  display: flex;
+  flex-direction: column;
+}
+.right_saidexh h4{
+  color: #fff;
+  background-color: #000;
+  border: 3px solid #fff;
+  text-align: center;
+  margin: 1rem 10px;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+.footerxh{
+  height: 50px;
+  background-color: #fff;
+}
+.footerxh hr{ 
+  width: 500px;
+  margin: revert;
+  margin-top: 2.5rem;
+}
+
+/* ========================================================= */
+
+
+
+  @media only screen and (max-width: 700px) {
+
+    .header_1xh{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/baground\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center center;
+    
+}
+
+.bennar_1xh h1{
+  font-size: 4rem;
+  margin-top: 200px;
+}
+
+.bannar_2xh{
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  margin-top: 150px;
+}
+  }
+
+
+
+  @media only screen and (max-width: 700px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  
+                .haied{display: block;}
+
+              
+                
+                .bannar_2xh hr{ 
+                  width: 300px;
+                  margin: revert;
+                  margin-top: 1rem;
+                }    
+                .footerxh hr{ 
+                  width: 300px;
+                  margin: revert;
+                  margin-top: 3rem;
+                }       
+                .bannar_2xh h2{
+                  text-align: center;
+                  margin-top: 1.5rem;
+                  font-size: 26px;
+                }
+                .containtxh{
+                  display: flex;
+                  padding-top: 7.5rem;
+                  padding-left: 1rem;
+                }
+                .right_saidexh h3{
+                  border: 3px solid #fff;
+                  text-align: center;
+                  margin: 1rem 10px;
+                  padding: 1rem 1rem;
+                  border-radius: 10px;
+                }
+}
